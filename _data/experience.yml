@@ -1,10 +1,36 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  company: Amazon NYC
+  link: https://amazon.com
+  job_title: Software Development Engineer
+  dates: Jul 2017 - Present
   quote: >
-   Short description of the company (optional)
+   Amazon is the leading e-Commerce platform in the world and amongst the biggest Tech Companies globally.
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    Worked in the Delivery Experience org to unify and <mark>present accurate and consistent delivery information</mark> to customers across their shopping experience, starting from search to detail page and then in cart and checkout.
+    Currently working in the Softlines space to take the guesswork out of ordering clothes and shoes and helping customers buy the <mark>right size and fit</mark> everytime. As a senior engineer, I have the unique opportunity to build technical solutions for problems at Amazon's massive scale. I also greatly enjoy mentoring interns and new developers and feel fortunate to be able to pay it forward.
+
+- layout: left
+  company: Audible
+  link: https://audible.com
+  job_title: Software Development Engineer
+  dates: Oct 2014 - Jun 2017
+  quote: >
+   Audible is a subsidiary of Amazon and is the worldwide leader in Spoken Audio Content.
+  description: | # this will include new lines to allow paragraphs
+    Moved from India to the United States and worked on Audible's <mark>RESTful APIs</mark> that power the native mobile apps.
+    Led the development of content delivery and streaming for Amazon English; an immersive learning experience with the focus on teaching english to intermediate users with authentic english content. Also led the development of <mark>content to content similarity algorithm</mark> to recommend relevant content to users.
+
+- layout: left
+  company: Amazon India
+  link: https://amazon.com
+  job_title: Software Development Engineer
+  dates: Jan 2013 - Sep 2014
+  quote: >
+   Amazon is the leading e-Commerce platform in the world.
+  description: | # this will include new lines to allow paragraphs
+    Started my software development career, first as an intern and then as a junior developer.
+    Learned to ply the trade with the best engineers in the business.
+    Worked on the <mark>Fraud Detection and Abuse Prevention</mark> team where I first learned the
+    ropes of Service Oriented Architecture (SOA) along with working on my first legacy code base.
+    Later I led the design and development of a precompute based architecture to tackle the Concessions Abuse Problem.

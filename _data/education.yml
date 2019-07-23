@@ -1,9 +1,17 @@
 # Education Template
 - layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
+  name: National Institute of Technology, Trichy
+  dates: 2010 - 2013
+  qualification: Master of Computer Applications
   quote: >
-    Short institution or course description (optional)
+    Premier engineering college in southern India.
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    [Curriculum for the course](https://www.nitt.edu/home/academics/curriculum/Curricula-M.Tech.-M.Sc-MCA-MBA-2017.pdf) includes foundational and advanced courses in Computer Science and Mathematics.
+    - Discrete Mathematics
+    - Problem Solving and Programming Fundamentals in C
+    - <mark>Object Oriented Programming</mark>
+    - <mark>Data Structures and Algorithms</mark>
+    - Computer Networks
+    - Computer Graphics
+    - <mark>Operating Systems</mark>
+    - Database Management Systems and Data Mining Techniques

@@ -1,9 +1,20 @@
 # Project template
 - layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  name: PATH Tracker
+  link: http://stn.audible.com/path-tracker-alexa-skill/
+  github: nikhilbhardwaj/path-alexa-skill
   quote: >
-    Short overview of the project (optional)
+    Alexa Skill to get local train times
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    This is a side project that I worked on, PATH(Port Authority Trans-Hudson) is a train system that connects Northern NJ with Midtown Manhattan. I lived in Jersey City for 3 years and took the train to commute to Newark and later to New York. The motivation behind this project was for me to be able to talk with Alexa and find timings for the next train to catch.
+
+    This Alexa Skill resides in the serverless AWS Lambda and is written in Java. We use the [Developer Resources provided by PATH](https://www.panynj.gov/path/developers.html) to parse the provided [GTFS feed](https://developers.google.com/transit/gtfs/) to understand the stops and routes. For a given user request, Alexa invokes our AWS lambda function which first parses the users question and then computes the optimal route between any two stations. You can find more details on [my blog](https://blog.nikhilbhardwaj.in/2016/09/23/path-tracker-alexa-skill/) or [Audible's Developer Blog](http://stn.audible.com/path-tracker-alexa-skill/) where this was featured.
+
+- layout: top-middle
+  name: Magic Candles
+  link: https://blog.nikhilbhardwaj.in/2017/07/26/magic-candles-alexa-iot/
+  github: nikhilbhardwaj/alexa-magic-candles
+  quote: >
+    Convert infrared controlled candles or lights into Smart Lights with IoT and control them with Alexa.
+  description: | # this will include new lines to allow paragraphs
+    This is another fun side project where I converted standard infrared(IR) controlled candles into Smart Candles by using a Raspberry Pi and an IR Blaster to emulate the remote. The same Raspberry Pi was also hooked up to AWS IoT which made it easy for an Alexa Skill to then control the lights. [More details can of-course be found on my blog](https://blog.nikhilbhardwaj.in/2017/07/26/magic-candles-alexa-iot/).
