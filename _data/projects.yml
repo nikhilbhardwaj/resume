@@ -17,4 +17,4 @@
   quote: >
     Convert infrared controlled candles or lights into Smart Lights with IoT and control them with Alexa.
   description: | # this will include new lines to allow paragraphs
-    This is another fun side project where I converted standard infrared(IR) controlled candles into Smart Candles by using a Raspberry Pi and an IR Blaster to emulate the remote. The same Raspberry Pi was also hooked up to AWS IoT which made it easy for an Alexa Skill to then control the lights. [More details can of-course be found on my blog](https://blog.nikhilbhardwaj.in/2017/07/26/magic-candles-alexa-iot/).
+    This is another fun side project where I converted standard infrared(IR) controlled candles into Smart Candles by using a Raspberry Pi and an IR Blaster to emulate the remote. The same Raspberry Pi was also hooked up to AWS IoT which made it easy for an Alexa Skill to then control the lights. [More details can of course be found on my blog](https://blog.nikhilbhardwaj.in/2017/07/26/magic-candles-alexa-iot/).

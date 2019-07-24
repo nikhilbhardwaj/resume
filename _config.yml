@@ -16,18 +16,18 @@ stackexchange_username: '632447'
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: assets/images/nikpik.png
 about_content: | # this will include new lines to allow paragraphs
   Hello there, I'm Nikhil Bhardwaj and this is my home page on the internet.
-  I'm a software engineer, currently plying my trade at Amazon in the heart of the amazing New York City. I started out with Amazon in Bangalore, India and in the <mark>last seven years</mark> have had the opportunity to work on multiple different business domains as well as to travel a part of the world.
+  I'm a software engineer, currently plying my trade at Amazon in the heart of the amazing New York City. I started out with Amazon in Bangalore, India and in the <mark>last seven years</mark> have had the opportunity to work on multiple different business domains as well as to travel parts of the world.
 
-  I love writing code, I've been facinated by computers from middle school. I love diving deep and really understanding how stuff works. At work I'm building robust and highly scalable systems to solve problems for customers at Amazon's unique scale. Outside of work, you will find me either working on Home Automation/Improvement projects or riding my bike on the Henry Hudson Trail in Monmouth County near the Atlantic Coast.
+  I love writing code, I've been fascinated by computers from middle school. I love diving deep and really understanding how stuff works. At work I'm building robust and highly scalable systems to solve problems for customers at Amazon's unique scale. Outside of work, you will find me either working on Home Automation/Improvement projects or riding my bike on the Henry Hudson Trail in Monmouth County near the Atlantic Coast.
 
   Earlier this year(2019), my wife and I were blessed with a baby boy. I love spending time watching him grow and can't wait to begin teaching and also learning from him. To know what I'm currently upto, be sure to [check out my blog](https://blog.nikhilbhardwaj.in).
 
 
 # Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+projects_title: Side Projects
 
 # Experience Section
 # experience_title: Experience #(Use this to override about experience section title)
