@@ -1,9 +1,10 @@
 # Education
-- layout: left
+- layout: education-line
   name: National Institute of Technology, Tiruchirappalli
   qualification: Master of Computer Applications (M.C.A.)
   dates: 2010 - 2013
 
-- layout: left
+- layout: education-line
   name: University of Delhi
   qualification: B.Sc. (Hons) Computer Science
+  dates: 2006 - 2010

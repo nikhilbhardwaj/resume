@@ -1,0 +1,7 @@
+<div class="row clearfix layout layout-education">
+  <div class="col-xs-12 col-print-12">
+    <p class="edu-entry">
+      <span class="edu-school">{{ include.item.name }}</span>{%- if include.item.qualification %} — <span class="edu-qual">{{ include.item.qualification }}</span>{% endif %}{%- if include.item.dates %} <span class="edu-dates">· {{ include.item.dates }}</span>{% endif -%}
+    </p>
+  </div>
+</div>
