@@ -1,12 +1,15 @@
-version: '3'
-
 services:
   jekyll:
-    image: jekyll/jekyll
+    image: ruby:3.4
     container_name: modern-resume-theme
-    command: jekyll serve --watch --force_polling --verbose
+    working_dir: /srv/jekyll
+    command: sh -c "bundle install && bundle exec jekyll serve --watch --force_polling --host 0.0.0.0"
     ports:
       - 4000:4000
       - 35729:35729
     volumes:
       - ./:/srv/jekyll
+      - bundle:/usr/local/bundle
+
+volumes:
+  bundle:
