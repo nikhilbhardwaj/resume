@@ -1,0 +1,59 @@
+// Minimal 12-column grid.
+// Replaces the BS3 (v3.3.5) grid classes -- the only part of that CSS framework
+// this theme used. Mobile-first. Matches BS3 gutters (15px column padding, -15px
+// row margins, 15px container padding), breakpoints (sm >= 768px, md >= 992px,
+// lg >= 1200px) and container widths (750 / 970 / 1170px).
+// NOTE: `col-print-12` and the print-specific grid overrides live in base.scss.
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// Column base (mobile-first): full width with 15px gutters.
+[class*="col-"] {
+  padding: 0 15px;
+  width: 100%;
+}
+
+// Extra small (default, < 768px)
+.col-xs-12 { width: 100%; }
+
+// Small: >= 768px
+@media (min-width: 768px) {
+  .container { max-width: 750px; }
+
+  .col-sm-4 { width: 33.33333333%; }
+  .col-sm-6 { width: 50%; }
+  .col-sm-8 { width: 66.66666667%; }
+}
+
+// Medium: >= 992px
+@media (min-width: 992px) {
+  .container { max-width: 970px; }
+
+  .col-md-3  { width: 25%; }
+  .col-md-6  { width: 50%; }
+  .col-md-9  { width: 75%; }
+  .col-md-12 { width: 100%; }
+}
+
+// Large: >= 1200px
+@media (min-width: 1200px) {
+  .container { max-width: 1170px; }
+
+  .col-lg-4 { width: 33.33333333%; }
+  .col-lg-8 { width: 66.66666667%; }
+}

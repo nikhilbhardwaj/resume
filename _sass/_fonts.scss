@@ -1,0 +1,21 @@
+// Self-hosted Roboto. Replaces the Google Fonts CDN @import.
+// Google now serves Roboto (v51) as a single variable WOFF2 per subset covering
+// the whole weight axis (100-900), so one file per style covers every weight the
+// theme uses (300 / 400 / 500 / 700, plus 600 which maps to the nearest instance).
+// Latin subset only, matching the previous request.
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/roboto-latin-variable.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/roboto-latin-italic-variable.woff2') format('woff2');
+}

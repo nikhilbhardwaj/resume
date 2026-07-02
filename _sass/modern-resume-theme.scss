@@ -1,3 +1,5 @@
+@import "grid";
+@import "fonts";
 @import "base";
 @import "button";
 @import "type";
@@ -16,7 +18,9 @@ ul.icons a {
   -webkit-transition: background-color 0.25s ease-in-out;
   -ms-transition: background-color 0.25s ease-in-out;
   transition: background-color 0.25s ease-in-out;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 2.75em;
   height: 2.75em;
   line-height: 2.8em;
@@ -28,9 +32,10 @@ ul.icons a {
   color: #aaa;
 }
 
-.icons i {
-  font-size: 30px;
-  line-height:60px;
+.icons svg {
+  width: 26px;
+  height: 26px;
+  fill: currentColor;
 }
 
 .icons {
@@ -131,8 +136,11 @@ ul.icons a {
       font-weight: 300;
     }
 
-    .fa {
-      font-size: 2em;
+    svg {
+      width: 1.8em;
+      height: 1.8em;
+      fill: currentColor;
+      vertical-align: middle;
     }
 
     .link {
