@@ -1,36 +1,47 @@
-# Experience template
+# Experience
 - layout: left
-  company: Amazon NYC
-  link: https://amazon.com
-  job_title: Software Development Engineer
-  dates: Jul 2017 - Present
+  company: Hims & Hers
+  link: https://www.hims.com
+  job_title: Staff Software Engineer
+  dates: Jan 2020 - Present · Remote
   quote: >
-   Amazon is the leading e-Commerce platform in the world and amongst the biggest Tech Companies globally.
+    Store Backend Platform
   description: | # this will include new lines to allow paragraphs
-    Worked in the Delivery Experience org to unify and <mark>present accurate and consistent delivery information</mark> to customers across their shopping experience, starting from search to detail page and then in cart and checkout.
-    Currently working in the Softlines space to take the guesswork out of ordering clothes and shoes and helping customers buy the <mark>right size and fit</mark> everytime. As a senior engineer, I have the unique opportunity to build technical solutions for problems at Amazon's massive scale. I also greatly enjoy mentoring interns and new developers and feel fortunate to be able to pay it forward.
+    Joined pre-IPO and grew with the company from a small team into the engineering org behind its e-commerce business — the custom platform that sells and fulfills prescription and OTC products directly, rather than bolting onto an off-the-shelf storefront. Progressed from Senior to Tech Lead to Staff Engineer as both the team and the scope of my ownership expanded.
+
+    - **Grew the in-house subscriptions platform from a single-table, pay-as-you-go prototype into a configurable system serving <mark>~3.6M billing-active subscriptions</mark>.** Drove the evolution from tightly-coupled billing to fully decoupled payments and shipments, and expanded from the original 3 treatment categories to the full catalog — including the higher-value Rx categories (Weight Management chief among them) that became the company's biggest growth engine. Partnered closely with newer engineers throughout, sharing the reasoning behind the design and getting them up to speed as owners of the system.
+    - **Led the identity and access-management overhaul, including a migration of ~23M user accounts to Auth0 delivered ahead of schedule.** Owned the design and use-case analysis and coordinated across the Growth frontend, Cybersecurity, and Auth0 vendor teams to move core login/signup off a legacy database-backed system with no regression in login-success or signup-conversion rates — then extended the same platform with adaptive multi-factor authentication, ReCaptcha bot protection (tuned to cut false-positive challenges), and SMS-based passwordless login to harden it against account takeover and abuse.
+    - **Built and scaled the order-tracking system**, expanding it from basic one-directional shipment tracking to bi-directional tracking for at-home lab kits (both the outbound kit and the customer's return sample), and extending the same model to in-person lab visits. Designed it for extensibility so downstream teams could build on a shared foundation instead of one-off point solutions.
+    - **Handled capacity and scaling planning for peak-traffic events**, including preparing platform infrastructure for a Super Bowl TV-ad traffic spike.
+    - **Delivered across new business lines as the company expanded** — Mental Health (psychiatry and therapy), Skincare, GLP-1, and others — repeatedly turning vague requirements and tight timelines into shipped launches, and authored platform-improvement proposals spanning product end-of-life, Visits, and the Product Catalog API.
+    - **Automated dead-letter-queue management using AI-assisted development.** Turned a recurring manual on-call chore into a deployed, largely autonomous pipeline that resolves known failure modes on its own and surfaces only novel cases for human review. Proficient with Claude Code and multi-agent orchestration workflows, and focused on using them to eliminate operational toil rather than as one-off experiments.
 
 - layout: left
-  company: Audible
+  company: Amazon
+  link: https://amazon.com
+  job_title: Software Development Engineer II
+  dates: Jul 2017 - Dec 2019 · New York, NY
+  description: | # this will include new lines to allow paragraphs
+    Worked in the Delivery Experience org to unify and present accurate, consistent delivery information to customers across the shopping journey — from search and detail page through cart and checkout. Later moved into Softlines, building systems to take the guesswork out of buying clothes and shoes and help customers get the right size and fit. Also mentored interns and new engineers.
+
+- layout: left
+  company: Audible (an Amazon company)
   link: https://audible.com
-  job_title: Software Development Engineer
-  dates: Oct 2014 - Jun 2017
-  quote: >
-   Audible is a subsidiary of Amazon and is the worldwide leader in Spoken Audio Content.
+  job_title: Software Development Engineer → SDE II
+  dates: Oct 2014 - Jun 2017 · Newark, NJ
   description: | # this will include new lines to allow paragraphs
-    Moved from India to the United States and worked on Audible's <mark>RESTful APIs</mark> that power the native mobile apps.
-    Led the development of content delivery and streaming for Amazon English; an immersive learning experience with the focus on teaching english to intermediate users with authentic english content. Also led the development of <mark>content to content similarity algorithm</mark> to recommend relevant content to users.
+    Relocated from India to the US to work on the RESTful APIs powering Audible's native mobile apps.
+
+    - Led development of content delivery and streaming for **Amazon English**, an immersive experience for teaching English to intermediate learners through authentic spoken content.
+    - Built a content-to-content similarity algorithm to power relevant content recommendations for listeners.
 
 - layout: left
-  company: Amazon India
+  company: Amazon
   link: https://amazon.com
   job_title: Software Development Engineer
-  dates: Jan 2013 - Sep 2014
-  quote: >
-   Amazon is the leading e-Commerce platform in the world.
+  dates: Jan 2013 - Sep 2014 · Bangalore, India (SDE Intern Jan–May 2013)
   description: | # this will include new lines to allow paragraphs
-    Started my software development career, first as an intern and then as a junior developer.
-    Learned to ply the trade with the best engineers in the business.
-    Worked on the <mark>Fraud Detection and Abuse Prevention</mark> team where I first learned the
-    ropes of Service Oriented Architecture (SOA) along with working on my first legacy code base.
-    Later I led the design and development of a precompute based architecture to tackle the Concessions Abuse Problem.
+    Started my career on the **Transaction Risk / Fraud Detection and Abuse Prevention** team, building online services within a large service-oriented architecture.
+
+    - **Built the near-real-time data integration behind the Concessions Abuse Prevention program — a launch with ~$100M in annual impact.** Integrated the Variable Computation Library (VCL) precompute store into the Concessions Abuse Service, replacing a pipeline that depended on stale data warehouse feeds with customer-level order-history aggregates available in near real time — and built the workflow that caught abuse of free-replacement orders. Reused Buyer and Digital Fraud team components to widen overall abuse capture.
+    - Built a monitoring dashboard that cut the team's operational load — a central place to manage all monitors and alarms, with one-click monitoring setup for launching a new service stack from an existing one.

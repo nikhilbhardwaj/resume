@@ -1,17 +1,9 @@
-# Education Template
+# Education
 - layout: left
-  name: National Institute of Technology, Trichy
+  name: National Institute of Technology, Tiruchirappalli
+  qualification: Master of Computer Applications (M.C.A.)
   dates: 2010 - 2013
-  qualification: Master of Computer Applications
-  quote: >
-    Premier engineering college in southern India.
-  description: | # this will include new lines to allow paragraphs
-    [Curriculum for the course](https://www.nitt.edu/home/academics/curriculum/Curricula-M.Tech.-M.Sc-MCA-MBA-2017.pdf) includes foundational and advanced courses in Computer Science and Mathematics.
-    - Discrete Mathematics
-    - Problem Solving and Programming Fundamentals in C
-    - <mark>Object Oriented Programming</mark>
-    - <mark>Data Structures and Algorithms</mark>
-    - Computer Networks
-    - Computer Graphics
-    - <mark>Operating Systems</mark>
-    - Database Management Systems and Data Mining Techniques
+
+- layout: left
+  name: University of Delhi
+  qualification: B.Sc. (Hons) Computer Science
